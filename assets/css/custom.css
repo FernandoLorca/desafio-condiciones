@@ -15,4 +15,14 @@ body {
   box-sizing: inherit;
 }
 
+.excersiceOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.excersiceOne img {
+  width: 40%;
+}
+
 /*# sourceMappingURL=custom.css.map */

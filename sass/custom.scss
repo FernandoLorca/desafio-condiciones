@@ -14,3 +14,19 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+@mixin resetMargins() {
+  padding: none;
+  margin: none;
+}
+
+.excersiceOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  img {
+    width: 40%;
+  }
+}
