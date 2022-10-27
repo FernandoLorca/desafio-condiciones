@@ -20,6 +20,13 @@ body {
   margin: none;
 }
 
+//excersiceOne function
+
+.borderRedActive {
+  border: 2px solid red;
+  border-radius: 200px;
+}
+
 .excersiceOne {
   display: flex;
   justify-content: center;
@@ -28,5 +35,6 @@ body {
 
   img {
     width: 40%;
+    cursor: pointer;
   }
 }
