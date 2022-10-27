@@ -16,12 +16,31 @@ body {
 }
 
 @mixin resetMargins() {
-  padding: none;
-  margin: none;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+h1,
+h2,
+p {
+  @include resetMargins();
+}
+
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
 }
 
 //excersiceOne function
-
 .borderRedActive {
   border: 2px solid red;
   border-radius: 200px;
@@ -36,5 +55,39 @@ body {
   img {
     width: 40%;
     cursor: pointer;
+  }
+}
+
+//excersiceTwo function
+
+.excersiceTwo {
+  .excersiceTwo__container {
+    display: flex;
+    justify-content: space-between;
+
+    .excersiceTwo__imgContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        border-radius: 200px;
+        width: 75%;
+      }
+
+      input {
+        margin-top: 2rem;
+      }
+    }
+  }
+  .excersiceTwo__inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+
+    p {
+      margin-bottom: 1rem;
+    }
   }
 }

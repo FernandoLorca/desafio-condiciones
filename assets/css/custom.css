@@ -15,6 +15,27 @@ body {
   box-sizing: inherit;
 }
 
+h1,
+h2,
+p {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
 .borderRedActive {
   border: 2px solid red;
   border-radius: 200px;
@@ -29,6 +50,32 @@ body {
 .excersiceOne img {
   width: 40%;
   cursor: pointer;
+}
+
+.excersiceTwo .excersiceTwo__container {
+  display: flex;
+  justify-content: space-between;
+}
+.excersiceTwo .excersiceTwo__container .excersiceTwo__imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.excersiceTwo .excersiceTwo__container .excersiceTwo__imgContainer img {
+  border-radius: 200px;
+  width: 75%;
+}
+.excersiceTwo .excersiceTwo__container .excersiceTwo__imgContainer input {
+  margin-top: 2rem;
+}
+.excersiceTwo .excersiceTwo__inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+.excersiceTwo .excersiceTwo__inputContainer p {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
