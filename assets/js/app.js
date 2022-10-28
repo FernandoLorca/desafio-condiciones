@@ -38,3 +38,37 @@ buttonStickers.addEventListener("click", () => {
     stickerWarning.classList.add("hidden");
   }
 });
+
+//excersiceThree
+const selectOne = document.querySelector(".selectOne");
+const selectTwo = document.querySelector(".selectTwo");
+const selectThree = document.querySelector(".selectThree");
+const selectPasswordResponse = document.querySelector(
+  ".selectPasswordResponse"
+);
+const buttonPassword = document.querySelector(".buttonPassword");
+
+selectPasswordResponse.classList.add("hidden");
+
+buttonPassword.addEventListener("click", () => {
+  selectPasswordResponse.classList.add("hidden");
+
+  if (
+    selectOne.value === "9" &&
+    selectTwo.value === "1" &&
+    selectThree.value === "1"
+  ) {
+    selectPasswordResponse.classList.remove("hidden");
+    selectPasswordResponse.textContent = "Password 1 correcto";
+  } else if (
+    selectOne.value === "7" &&
+    selectTwo.value === "1" &&
+    selectThree.value === "4"
+  ) {
+    selectPasswordResponse.classList.remove("hidden");
+    selectPasswordResponse.textContent = "Password 2 correcto";
+  } else {
+    selectPasswordResponse.classList.remove("hidden");
+    selectPasswordResponse.innerHTML = "Pasword incorrecto";
+  }
+});

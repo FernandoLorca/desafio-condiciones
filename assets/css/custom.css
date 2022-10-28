@@ -90,9 +90,10 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 .excersiceThree p {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
