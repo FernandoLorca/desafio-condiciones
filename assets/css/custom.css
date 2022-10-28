@@ -78,4 +78,21 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.excersiceThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.excersiceThree h2 {
+  margin-bottom: 2rem;
+}
+.excersiceThree .excersiceThree__inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.excersiceThree p {
+  margin: 1rem 0;
+}
+
 /*# sourceMappingURL=custom.css.map */
