@@ -19,23 +19,40 @@
     </section>
 
     <section class="excersiceTwo">
-      <h2>Puedes llevar hasta 10 stickers</h2>
+      <h2>
+        Puedes llevar hasta <span id="totalNumberSticker">10</span> stickers
+      </h2>
       <div class="excersiceTwo__container">
         <div class="excersiceTwo__imgContainer">
           <img src="./assets/img/prod01.jpg" alt="" />
-          <input type="number" placeholder="Elige cantidad" value="1" />
+          <input
+            id="stickerInput1"
+            type="number"
+            placeholder="Elige cantidad"
+            value="1"
+          />
         </div>
         <div class="excersiceTwo__imgContainer">
           <img src="./assets/img/prod02.jpg" alt="" />
-          <input type="number" placeholder="Elige cantidad" value="1" />
+          <input
+            id="stickerInput2"
+            type="number"
+            placeholder="Elige cantidad"
+            value="1"
+          />
         </div>
         <div class="excersiceTwo__imgContainer">
           <img src="./assets/img/prod03.jpg" alt="" />
-          <input type="number" placeholder="Elige cantidad" value="1" />
+          <input
+            id="stickerInput3"
+            type="number"
+            placeholder="Elige cantidad"
+            value="1"
+          />
         </div>
       </div>
       <div class="excersiceTwo__inputContainer">
-        <p>Llevas demasiados stickers</p>
+        <p class="stickerWarning hidden">Llevas demasiados stickers</p>
         <button class="buttonStickers">Verificar</button>
       </div>
     </section>
