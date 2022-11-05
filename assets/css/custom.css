@@ -38,7 +38,7 @@ h2 {
 
 .borderRedActive {
   border: 2px solid red;
-  border-radius: 200px;
+  border-radius: 100%;
 }
 
 .excersiceOne {
