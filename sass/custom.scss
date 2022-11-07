@@ -36,6 +36,10 @@ h2 {
   text-align: center;
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
 .hidden {
   display: none !important;
 }
@@ -50,10 +54,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 
   img {
-    width: 40%;
+    width: 20%;
     cursor: pointer;
   }
 }
@@ -61,7 +64,10 @@ h2 {
 .excersiceTwo {
   .excersiceTwo__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    max-width: 75%;
+    width: 100%;
+    margin: 0 auto;
 
     .excersiceTwo__imgContainer {
       display: flex;
