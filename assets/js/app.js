@@ -32,11 +32,10 @@ buttonStickers.addEventListener("click", () => {
   ) {
     totalNumberSticker.textContent = inputValueSum;
   }
-  if (inputValueSum > 10) {
-    stickerWarning.classList.remove("hidden");
-  } else {
-    stickerWarning.classList.add("hidden");
-  }
+
+  inputValueSum > 10 >= 1
+    ? stickerWarning.classList.remove("hidden")
+    : stickerWarning.classList.add("hidden");
 });
 
 //excersiceThree
